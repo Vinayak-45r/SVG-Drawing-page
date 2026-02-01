@@ -12,8 +12,8 @@ svg.addEventListener("mousedown", function (e) {
         "polyline"
     );
 
-    line.setAttribute("stroke", "blue");
-    line.setAttribute("stroke-width", "2");
+    line.setAttribute("stroke", "black");
+    line.setAttribute("stroke-width", "3");
     line.setAttribute("fill", "none");
 
     svg.appendChild(line);
