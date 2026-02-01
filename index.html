@@ -2,14 +2,26 @@
 <html>
 <head>
     <title>Simple SVG Drawing</title>
+    <style>
+        #bin {
+            width: 32px;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 4px;
+        }
+    </style>
 </head>
 <body>
 
-<button onclick="clearBox()">Clear</button>
+<img id="bin"
+     src="https://www.clipartmax.com/png/middle/20-207552_images-for-garbage-can-clipart-rubbish-bin-clip-art.png"
+     alt="Clear Drawing"
+     onclick="clearBox()">
 <br><br>
 
 <svg id="box" width="500" height="300"
-     style="border:1px solid black;">
+     style="border:3px solid rgb(8, 0, 10);">
 </svg>
 
 <script src="script.js"></script>
